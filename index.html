@@ -11,9 +11,9 @@
             min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: flex-start; /* Ajusta o alinhamento do conteúdo no topo */
+            align-items: flex-start; 
             margin: 0;
-            padding-top: 20px; /* Espaçamento superior */
+            padding-top: 20px; 
         }
         .card {
             background-color: #ffffff;
@@ -24,7 +24,7 @@
             width: 100%;
             text-align: center;
             padding: 20px;
-            margin: 10px; /* Espaçamento entre os cards */
+            margin: 10px;
         }
         .card img {
             border-radius: 8px;
@@ -53,7 +53,7 @@
         .btn-container {
             display: flex;
             justify-content: center;
-            gap: 10px; /* Espaçamento entre os botões */
+            gap: 10px; 
             flex-wrap: wrap;
         }
         .carousel-inner img {
@@ -65,24 +65,24 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px; /* Espaçamento entre os cards */
+            gap: 20px; 
         }
 
-        /* Corrigindo o problema do carrossel mudar a posição durante a animação */
+        
         .carousel {
             position: relative;
-            height: 300px; /* Definindo uma altura fixa para o carrossel */
+            height: 300px; 
             overflow: hidden;
         }
 
         .carousel-inner {
             position: absolute;
             width: 100%;
-            height: 100%; /* Garantindo que a altura do carrossel seja constante */
+            height: 100%; 
         }
 
         .carousel-item {
-            height: 100%; /* Garantindo que os itens tenham a mesma altura */
+            height: 100%; 
         }
     </style>
 </head>
@@ -134,7 +134,7 @@
         });
 
         document.getElementById('btn-filho').addEventListener('click', function() {
-            alert('Vocês ainda não têm filhos, mas o futuro é brilhante!');
+            alert('Não temos filhos ainda, mas o futuro é brilhante!');
         });
 
         document.getElementById('btn-casamento').addEventListener('click', function() {
